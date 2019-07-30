@@ -133,6 +133,18 @@ p {
   height: 100%;
 }
 
+.cert-logo {
+  mix-blend-mode: luminosity;
+  width: 8vw;
+  padding-bottom: 30px;
+  opacity: 0.5;
+}
+
+.pluralsight-skill {
+  mix-blend-mode: luminosity;
+  opacity: 0.5;
+}
+
 /*===== All Button Style =====*/
 .main-btn {
   display: inline-block;
@@ -1725,18 +1737,29 @@ p.form-message.error.form-message.error {
 }
 
 .image-profile {
-  width: 20vw;
+  width: 15vw;
   max-width: 75%;
   border-radius: 50%;
 }
 
 @media (max-width: 991px) {
   .image-profile {
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 40px;
+    margin-bottom: 80px;
     margin-left: auto;
     margin-right: auto;
     width: 33vw;
+  }
+  .cert-logo {
+    mix-blend-mode: luminosity;
+    width: 33vw;
+    padding-bottom: 30px;
+    opacity: 0.5;
+  }
+  .pluralsight-skill {
+    width: 65vw;
+    mix-blend-mode: luminosity;
+    opacity: 0.5;
   }
 }
 
